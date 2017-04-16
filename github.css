@@ -1,0 +1,80 @@
+ * {
+    margin: 0;
+    padding: 0;
+   }
+img {
+	border:none;
+}
+.navigation {
+     background-color: #000;
+     height: 80px; 
+}
+p {
+	color: white;
+	margin-left: 10%;
+	font-family: Arial; 
+}
+
+li {
+	color: white;
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	padding-right: 3%;
+
+}
+ul {
+    margin-right: 10%;
+    padding-top: 1.6%;
+    font-family: Arial; 
+}
+b {
+	color: orange;
+}
+#logo-mini1 {
+     float: left;
+     margin-left: 12%;
+     padding-top: 1.4%;
+}
+
+.header1 {
+	background-image: url(header-img.png);
+	height: 959px;
+}
+.header2 {
+	margin-left: 8%; 
+	margin-right: 57%;
+	padding-top: 11%;
+} 
+#logo-big1 {
+     margin-left: 10%;
+     margin-bottom: 6%;
+}
+.big-text {
+	text-transform: uppercase;
+	font-size: 250%;
+	margin-bottom: 6%;
+	font-weight: normal;
+	font-family: ARIAL;
+}
+hr {
+	margin-right: 80%;
+	margin-left: 10.5%;
+	margin-bottom: 6%;
+}
+.text-lorem {
+ line-height: 170%;
+ margin-bottom: 6%;
+}
+button {
+    background-image: none; 
+    background: transparent;
+    background-color: transparent;
+    padding:1%;
+    border: 2px solid #ffffff; /* Поля кнопки */
+    border-radius: 2px; /* Закругление кнопки */
+    color: #ffffff;
+    width: 140px; height: 45px; /* Фиксированный размер кнопки */
+    font-size: 103%;
+    margin-left: 10%;
+}
