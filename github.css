@@ -174,3 +174,119 @@ img {
 	box-shadow: 0px 0px 30px -2px #424242;
 	background: #e86d16;
 }
+
+
+/*Max's part (social-media)*/
+.container2 {
+    font: 16px Arial, sans-serif;
+    margin:0;
+}
+
+.social-media {
+	border-bottom: 2px solid #a9a9a9;
+}
+.social-media h2 {
+    color: black;
+}
+.social-media__text {
+    width:400px;
+    display:inline-block;
+    margin-left: 10%;
+    padding: 1%;
+    color: #a9a9a9;
+}
+.social-media__links {
+    width:700px;
+    display:inline-block;
+    float: right;
+    margin-right: 10%;
+    padding: 1.8%;
+}
+
+.social-media a{
+  font-size:42px;
+  text-decoration:none;
+  color: #a9a9a9;
+  margin-right:7%;
+}
+.social-media-body{
+  padding:10% 5%;
+  background: whitesmoke;
+}
+.icon-facebook:before {
+    content: "";    
+}    
+.icon-twitter-3:before {
+    content: "";
+}
+.icon-google__x2B_:before {
+    content: "";
+}
+.icon-pinterest:before {
+    content: "";
+}
+.icon-instagram:before {
+    content: "";
+}
+.icon-stumble_upon:before {
+    content: "";
+}
+.icon-rss:before {
+    content: "";
+}
+
+.tabs-wrapper {
+	width:160px;
+	margin:0 8%;
+	text-align:center;
+	display: inline-block;
+}
+.tabs-wrapper__tabs {
+    background: #333333; /*#ff8b38;*/
+    padding: 60px 50px;
+    margin-top: 2%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.tabs-wrapper__tabs:hover, .tab-descript__btn:hover{
+	background: #ff8b38;
+	transition: background 0.3s ease-in; 
+	cursor: pointer;
+}
+.tabs-wrapper__tabs:active, .tab-descript__btn:active{
+	background: #86878b;
+	cursor: pointer;
+}
+.tab-descript {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: : 1.6em;
+    margin-top: 2%;
+}
+.tab-descript h2 {
+	margin-bottom: 12%;
+}
+.tab-descript p {
+	margin-bottom: 8%;
+	line-height: 1.6;
+	 color: #a9a9a9;
+}
+.tab-descript__btn {
+    padding: 3% 5%;
+    margin: 3% 0;
+    background: #333333;
+    color: white;
+    border:none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 17px;
+}
+ .pic {
+	display: inline-block;
+	vertical-align: top;
+	margin: 4% 7%;
+}
