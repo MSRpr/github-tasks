@@ -175,6 +175,7 @@ img {
 	background: #e86d16;
 }
 
+<<<<<<< Updated upstream
 
 /*Max's part (social-media)*/
 .container2 {
@@ -289,4 +290,58 @@ img {
 	display: inline-block;
 	vertical-align: top;
 	margin: 4% 7%;
+}
+
+.sub-list-block {
+  text-align: center;
+  margin: 8% 0;
+}
+
+
+.sub-list-block-pic{
+  display: inline-block;
+}
+
+.sub-list-block-text{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  font-family: arial;
+  width: 460px;
+  margin-left: 100px;
+}
+
+.sub-list-block-text i{
+  float: left;
+  font-size: 120%;
+  color: #ff8b38;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  padding: 8px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.sub-list-block-text h2{
+  padding-bottom: 30px;
+  color: #343434; 
+}
+.sub-list-line{
+  border-bottom: 2px solid #ff8b38;
+  width: 70px;
+}
+.sub-list-block-text h3{
+  color: #343434;
+  padding: 10px 0;
+  margin-left: 90px;
+  font-size: 95%;
+}
+.sub-list-block-text p{
+  color: #97979b; 
+}
+.sub-list-block-text .sub-list{
+  padding: 30px 0;
+}
+
+.sub-list-2{
+  margin-left: 90px;
 }
